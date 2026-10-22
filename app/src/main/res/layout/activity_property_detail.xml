@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- PROPERTY NAME -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green Valley Residence"
+            android:textColor="#1E293B"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+        <!-- STATUS -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="● AVAILABLE"
+            android:textColor="#2E7D32"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!-- PRICE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Rp 850.000.000"
+            android:textColor="#2E7D32"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <!-- LOCATION -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="📍 Pekanbaru, Riau"
+            android:textColor="#64748B"
+            android:textSize="15sp" />
+
+        <!-- DESCRIPTION -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Property Description"
+            android:textColor="#1E293B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Green Valley Residence merupakan hunian modern dengan desain minimalis yang nyaman untuk keluarga. Berlokasi di area strategis dengan lingkungan yang aman dan nyaman."
+            android:textColor="#64748B"
+            android:textSize="15sp"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- FACILITIES -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Facilities"
+            android:textColor="#1E293B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="✓ 3 Bedrooms&#10;✓ 2 Bathrooms&#10;✓ 1 Garage&#10;✓ Land Area 120 m²&#10;✓ Building Area 90 m²"
+            android:textColor="#64748B"
+            android:textSize="15sp"
+            android:lineSpacingExtra="5dp" />
+
+        <!-- CONTACT BUTTON -->
+        <Button
+            android:id="@+id/btnContact"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="#2E7D32"
+            android:text="Contact Agent"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- SHARE BUTTON -->
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#4CAF50"
+            android:text="Share Property"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

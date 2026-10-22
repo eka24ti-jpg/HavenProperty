@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F7FA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HAVEN PROPERTY"
+        android:textColor="#1E3A5F"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="HAVEN PROPERTY adalah aplikasi pencarian properti yang membantu pengguna menemukan hunian impian dengan mudah dan cepat."
+        android:textColor="#555555"
+        android:textSize="16sp"/>
+
+</LinearLayout>
+
